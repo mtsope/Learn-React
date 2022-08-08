@@ -1,0 +1,35 @@
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 95px;
+    width: 1000px;
+    padding: 30px 25px;
+}
+
+nav > h3, nav > h4{
+    color: skyblue;
+    margin: 0;
+}
+
+nav > h3 {
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+nav > h4 {
+    color: #DEEBF8;
+    font-weight: 600;
+}
+
+.nav-logo
+{
+    height: 35px;
+    margin-right: 7px;
+}
+
+
+
