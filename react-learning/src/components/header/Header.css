@@ -1,13 +1,3 @@
-body
-{
-    background-color: aqua;
-}
-
-h1{
-    color: blue;
-    text-align: center;
-}
-
 .nav {
     display: flex;
     justify-content: space-between;
