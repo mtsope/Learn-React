@@ -1,0 +1,36 @@
+
+.logo {
+    width: 100%;
+    height: 150px;
+}
+
+h5 {
+    color: #4A3F3B;
+}
+
+.main {
+    text-align: center;
+    line-height: 0;
+}
+
+.button {
+    align-items: center;
+    padding-left: 15px;
+    font-size: 12px;
+    
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    margin: 5px;
+    padding: 7px 30px;
+    
+}
+
+.button2 {
+    background-color: #0C8CE9;
+    margin: 5px;
+    padding: 7px 30px;
+
+}
