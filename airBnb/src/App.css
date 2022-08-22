@@ -8,3 +8,8 @@ body {
   align-items: center;
   background-color: #DCDCDC;
 }
+
+.card-container {
+  display: flex;
+  column-gap: 20px ;
+}

@@ -11,4 +11,10 @@ p {
 
 .hero_items {
     padding: 20px 60px;
+    text-align: center;
+}
+
+.img-wrapper{
+    width: 70%;
+    margin: 0 auto;
 }

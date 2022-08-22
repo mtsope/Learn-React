@@ -4,7 +4,9 @@ import '../header/Header.css'
 function Header() {
     return(
         <nav className='main'>
+            <div className="img-wrapper">
             <img className='logo' src={logo} alt="logo" />
+            </div>
             <h3>Michela Tsope</h3>
             <h5>Full stack Developer</h5>
             <h6>michelatsope.website</h6>
