@@ -11,8 +11,25 @@ function Main(){
         buttonText:"",
         randomImage:"http://i.imgflip.com/1bij.jpg"
     })
-    const [allMemeImages, setAllMemeImages] = React.useState(memesData)
+    const [allMemeImages, setAllMemeImages] = React.useState([])
     
+    // React.useEffect(() => {
+    //     fetch("https://api.imgflip.com/get_memes")
+    //         .then(res => res.json())
+    //         .then(data => setAllMemeImages(data.data.memes))
+    // }, [])
+
+    React.useEffect(() => {
+        async function getMemes() {
+
+            const res = await fetch("https://api.imgflip.com/get_memes")
+            const data = await res.json()
+            setAllMemeImages(data.data.memes)
+        }
+        getMemes()
+    }, [])
+
+
     function getMemeImage() {
 
         const memesArray = allMemeImages.data.memes
