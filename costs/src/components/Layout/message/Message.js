@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
-import './Message.css'
+import d from'./Message.css'
 
-function Message({type, msg}) {
+function Message({msg}) {
     const [visible, setVisible] = useState(false)
 
 
@@ -24,7 +24,7 @@ function Message({type, msg}) {
     return (
         <>
          {visible && (
-            <div className='message'>{msg} </div>
+            <div className={d.start}>{msg} </div>
          )}
         </>     
     )
